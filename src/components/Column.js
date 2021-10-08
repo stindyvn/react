@@ -5,10 +5,11 @@ import {View} from "react-native";
 function Column (props){
     if (props.hidden) return <></>;
     return <View
-        style={{
-            flexDirection: "column"
-        }}
         {...props}
+        style={{
+            flexDirection: "column",
+            ...props.style
+        }}
     />;
 }
 

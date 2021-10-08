@@ -7,15 +7,16 @@ function Text(props) {
     return <ReactText
         numberOfLines={props.lines}
         ellipsizeMode={props.overflowMode}
+        {...props}
         style={{
             color: props.color,
             backgroundColor: props.background,
             textAlign: props.align,
             fontSize: props.size,
             fontWeight: props.weight,
-            fontFamily: props.font
+            fontFamily: props.font,
+            ...props.style
         }}
-        {...props}
     />;
 }
 

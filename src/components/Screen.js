@@ -9,26 +9,28 @@ function Screen (props){
         <>
             <StatusBar style={props.statusbar}/>
             <SafeAreaView
+                {...props}
                 style={{
                     flex: 1,
                     backgroundColor: "white",
                     ...props.style
                 }}>
                 <KeyboardAvoidingView
-                    style={{ flex: 1 }}
+                    style={{
+                        flex: 1
+                    }}
                     behavior={behavior}
                     enabled
-                    {...props}
                 />
             </SafeAreaView>
         </> :
         <>
             <StatusBar style={props.statusbar}/>
             <KeyboardAvoidingView
-                style={{ flex: 1, ...props.style }}
                 behavior={behavior}
                 enabled
                 {...props}
+                style={{ flex: 1, ...props.style }}
             />
         </>
 }

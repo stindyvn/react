@@ -6,13 +6,13 @@ function ScrollView (props){
     if (props.hidden) return <></>;
     return <ScrollViewReact
         keyboardShouldPersistTaps="handled"
+        {...props}
         contentContainerStyle={{
             flexGrow: 1,
             justifyContent: props.verticalAlign,
             alignItems: props.horizontalAlign,
             ...props.style
         }}
-        {...props}
     />;
 }
 
