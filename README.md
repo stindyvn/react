@@ -1,4 +1,4 @@
-# [@stindy/react](https://github.com/stindy/react/) &middot; [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
+# [react-native-stindy-component](https://github.com/stindy/react/) &middot; [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
 
 This is a library included some base component custom for React Native project.
 
@@ -6,18 +6,18 @@ This is a library included some base component custom for React Native project.
 
 Using NPM:
 ```shell
-$ npm i @stindy/react
+$ npm i react-native-stindy-component
 ```
 
 Using Yarn/Expo:
 ```shell
-$ expo add @stindy/react
+$ expo add react-native-stindy-component
 ```
 
 ## Usage
 
 ```jsx
-import {Screen, Container, ScrollView, Column, Row, Text, SizedBox, TextField, Button} as Base from "@stindy/react";
+import {Screen, Container, ScrollView, Column, Row, Text, SizedBox, TextField, Button} as Base from "react-native-stindy-component";
 
 <Screen safeArea={true} statusbar="auto">
     <Container hidden={false} verticalAlign="flex-start" horizontalAlign="stretch">

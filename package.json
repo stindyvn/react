@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "stindy-react-native-component",
+  "name": "react-native-stindy-component",
   "version": "1.0.0",
   "description": "React Native",
   "main": "index.js",
