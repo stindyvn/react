@@ -1,7 +1,7 @@
 {
   "private": false,
-  "name": "@stindy/react",
-  "version": "1.0.6",
+  "name": "stindy-react-native-component",
+  "version": "1.0.0",
   "description": "React Native",
   "main": "index.js",
   "scripts": {},
@@ -33,7 +33,6 @@
     "react": "~16.13.1",
     "react-dom": "~16.13.1",
     "react-native": "~0.63.2",
-    "react-native-web": "~0.13.12",
-    "metro-react-native-babel-preset": "^0.66.2"
+    "react-native-web": "~0.13.12"
   }
 }
