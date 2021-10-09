@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@stindy/react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Native",
   "main": "index.js",
   "scripts": {},
@@ -25,7 +25,10 @@
   "peerDependencies": {
     "expo": "*",
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "expo-status-bar": "*",
+    "react-dom": "*",
+    "react-native-web": "*"
   },
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.66.2"
