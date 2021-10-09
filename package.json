@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@stindy/react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Native",
   "main": "index.js",
   "scripts": {},
@@ -20,15 +20,15 @@
   },
   "homepage": "https://github.com/stindy/react#readme",
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "15.7.2"
   },
   "peerDependencies": {
-    "expo": "*",
-    "react": "*",
-    "react-native": "*",
-    "expo-status-bar": "*",
-    "react-dom": "*",
-    "react-native-web": "*"
+    "expo": "~42.0.1",
+    "expo-status-bar": "~1.0.4",
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1",
+    "react-native": ">=0.63.2",
+    "react-native-web": ">=0.13.12"
   },
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.66.2"
